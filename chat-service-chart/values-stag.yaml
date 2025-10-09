@@ -30,4 +30,3 @@ ingress:
         - path: /
           pathType: Prefix
 env: stag
-
