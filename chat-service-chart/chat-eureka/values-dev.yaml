@@ -7,8 +7,8 @@ image:
   repository: 590183815332.dkr.ecr.ap-northeast-2.amazonaws.com/eureka-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "33c9467fb6f1ce89dbf2428021b2b391794fe8ba"
-fullnameOverride: "dev-chat-service"
+  tag: "c75361b00b9fdd7125a00f9d0c9c9dbafcf7048b"
+fullnameOverride: "dev-chat-erureka-service"
 serviceAccount:
   # Specifies whether a service account should be created
   create: false

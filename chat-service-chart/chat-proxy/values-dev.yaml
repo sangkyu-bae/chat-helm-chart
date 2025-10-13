@@ -4,11 +4,11 @@
 
 replicaCount: 1
 image:
-  repository: 590183815332.dkr.ecr.ap-northeast-2.amazonaws.com/eureka-service
+  repository: 590183815332.dkr.ecr.ap-northeast-2.amazonaws.com/chat-server-service
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "33c9467fb6f1ce89dbf2428021b2b391794fe8ba"
-fullnameOverride: "dev-chat-service"
+fullnameOverride: "dev-chat-proxy-service"
 serviceAccount:
   # Specifies whether a service account should be created
   create: false
